@@ -1,0 +1,67 @@
+body{
+  margin: 0px;
+  width: 100%;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image:linear-gradient(grey,white) ;
+}
+
+#drumkit{
+  border-radius: 6px;
+  width: 60%;
+  min-width: 1155px;
+  min-height: 528px;
+  height: 80vh;
+  background-image: url("drumkit.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  opacity: 0.9;
+
+}
+.buttonEl{
+  padding: 14px 20px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.3;
+}
+
+/*Buttons Position*/
+#A{
+  position: absolute;
+  top: 170px;
+  left: 190px;
+}
+#S{
+  position: absolute;
+  top: 110px;
+  left: 300px;
+}
+#D{
+  position: absolute;
+  top: 72px;
+  right: 150px;
+}
+#J{
+  position: absolute;
+  bottom: 140px;
+  left: 450px;
+}
+#K{
+  position: absolute;
+  bottom: 220px;
+  left: 600px;
+}
+#L{
+  position: absolute;
+  bottom: 280px;
+  right: 180px;
+}
+
